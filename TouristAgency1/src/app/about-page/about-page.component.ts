@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about-page.component.css']
 })
 export class AboutPageComponent implements OnInit {
-
+  company = "Agnes & Julia GmbH";
   constructor() { }
 
   ngOnInit(): void {
